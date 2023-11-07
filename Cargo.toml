@@ -1,0 +1,10 @@
+[workspace]
+members = ["myapp01", "mylib*"]
+resolver = "2"
+default-members = ["myapp01"]
+
+[workspace.package]
+version = "0.0.0"
+authors = ["Ludovic Cleuet"]
+description = "Workspace with Rust"
+documentation = "https://doc.rust-lang.org/cargo/reference/workspaces.html"
